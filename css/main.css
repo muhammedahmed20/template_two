@@ -376,6 +376,20 @@ header .form i{
 .design .text ul li i{
   margin-right: 10px;
 }
+@media (max-width: 767px) {
+  .design .image {
+    display: none;
+  }
+  .design .text {
+    padding: 20px;
+  }
+  .design .text h4 {
+    font-size: 18px;
+  }
+  .design .text li {
+    font-size: 12px;
+  }
+}
 /* End Design */
 /* Start protfolio */
 .protfolio{
